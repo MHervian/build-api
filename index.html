@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Halaman Pendaftaran Anggota Komunitas</title>
+    </head>
+    <body>
+        <h2>Halaman Pendaftaran Anggota Komunitas</h2>
+        <a href="tabel.php">Ke halaman Daftar Anggota &rarr;</a> <hr>
+        <form method="post" action="program.php">
+            <label>Nama: <input type="text" name="nama"></label><br>
+            <label>Tanggal Lahir: <input type="date" name="tglLahir" required></label><br>
+            <label>Kota Lahir: <input type="text" name="kota"></label><br>
+            <label>Posisi:
+                <select name="posisi">
+                    <option>Ketua</option>
+                    <option>Pengurus</option>
+                    <option>Anggota</option>
+                </select>
+            </label><br>
+            <label>Tanggal Daftar: <input type="date" name="tglMasuk"></label><br>
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Reset">
+        </form>
+        <a href="readme.txt">Baca readme.txt</a>
+    </body>
+</html>
